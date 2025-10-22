@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zainab Raji Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" id="nav-home">Home</a></li>
+            <li><a href="contact.html" id="nav-contact">Contact Me</a></li>
+            <li><a href="about.html" id="nav-about">About Me</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="page-content active">
+
+            <article data-testid="test-profile-card">
+                <figure>
+                    <img src="images/zainab profile card.jpg" alt="Zainab's profile picture" data-testid="test-user-avatar"/>
+                </figure>
+
+                <h2 data-testid="test-user-name">Zainab Raji</h2>
+
+                <p data-testid="test-user-bio">A Frontend Developer who is on a journey to being a Fullstack Developer. Creating and developing an inclusive and accessible system, one line of code at a time.</p>
+
+                <p>Current time (milliseconds):
+                    <span data-testid="test-user-time"></span>
+                </p>
+
+                <nav data-testid="test-user-social-links">
+                    <ul>
+                        <li><a href="https://github.com/ZayRaji"  target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/zainabraji" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkeDin</a></li>
+                        <li><a href="https://www.x.com/mszraji"  target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+                    </ul>
+                </nav>
+
+                <section>
+                    <h3>Hobbies</h3>
+                    <ul data-testid="test-user-hobbies">
+                        <li>Reading</li>
+                        <li>Teaching</li>
+                        <li>Travelling</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>Dislikes</h3>
+                    <ul data-testid="test-user-dislikes">
+                        <li>Lack of Communication</li>
+                        <li>Non-commital People</li>
+                    </ul>
+                </section>
+
+
+
+            </article>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
